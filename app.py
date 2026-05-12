@@ -553,7 +553,6 @@ if page == "Individual Patient Assessment":
                 <span class="badge">{_esc(sg.get("timeframe"))}</span>
             </div>
             <div class="action-block">
-                <div class="action-label">Why this is a priority for this patient</div>
                 <div class="tier-detail">{_esc(sg.get("rationale"))}</div>
             </div>
             <div class="action-block">
